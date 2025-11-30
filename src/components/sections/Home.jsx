@@ -16,9 +16,9 @@ const Home = () => {
             Hi, I'm Hadjer Imene BENSAOULA
           </h1>
           <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I'm a junior data Scientist, a data engineer and a web developper. I
-            aim to grow fully on these fields and keep learning, trying and
-            growing.
+            I'm a junior data Scientist, a data engineer and a Junior MERN
+            developper. I aim to grow fully on these fields and keep learning,
+            trying and growing.
             <br />
             My goal is to be able to build solutions in these fields that offer
             delightful performances!

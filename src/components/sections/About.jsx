@@ -150,22 +150,55 @@ const About = () => {
           </div>
 
           {/* Education and work experience */}
+          {/* Education and work experience */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
             {/* Education */}
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all ">
+            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4">Education</h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> SID Master's Degree </strong> - USTO-MB University
-                  (2020-2022)
+                  <strong> Ph.D. in Data Science </strong> - USTO-MB University
+                  (2023 - Present)
                 </li>
                 <li>
-                  <strong> CS Bachelor's Degree </strong> - USTO-MB University
-                  (2017-2020)
+                  <strong> Master's in Information Systems </strong> - USTO-MB
+                  University (2020-2022)
+                </li>
+                <li>
+                  <strong> Bachelor's in Computer Systems </strong> - USTO-MB
+                  University (2017-2020)
                 </li>
               </ul>
             </div>
+
             {/* Work Experience */}
+            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+              <h3 className="text-xl font-bold mb-4">Work Experience</h3>
+              <div className="space-y-4 text-gray-300">
+                <div>
+                  <div className="flex justify-between items-center mb-1">
+                    <h4 className="font-semibold">
+                      Teaching Assistant (Part-time)
+                    </h4>
+                  </div>
+                  <p className="text-sm text-gray-400 mb-2">USTO-MB, Oran</p>
+                  <ul className="list-disc list-inside text-sm space-y-1 pl-2">
+                    <li>
+                      <strong>Data Warehousing:</strong> Modeling
+                      (Star/Snowflake), ETL, and OLAP cube design.
+                    </li>
+                    <li>
+                      <strong>Advanced Databases:</strong> Oracle DBMS, SQL
+                      optimization, PL/SQL, and transaction management.
+                    </li>
+                    <li>
+                      <strong>Cloud Computing:</strong> AWS practical labs (EC2,
+                      S3, Lambda deployment).
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </RevealOnScroll>
